@@ -100,15 +100,15 @@ The pipeline was built with MLOps readiness in mind:
 
 ## 🧩 Workflow
 ```markdown
-```mermaid
-flowchart TD
-A[Data Ingestion] --> B[Feature Engineering feature_engineer.py]
-B --> C[Label Encoding + Imputation]
-C --> D[Model Training CatBoost]
-D --> E[Cross-Validation + Statistical Tests]
-E --> F[Robustness Stress Tests]
-F --> G[Explainability SHAP]
-G --> H[Prediction + Submission CSV]
+  ```mermaid
+  flowchart TD
+  A[Data Ingestion] --> B[Feature Engineering feature_engineer.py]
+  B --> C[Label Encoding + Imputation]
+  C --> D[Model Training CatBoost]
+  D --> E[Cross-Validation + Statistical Tests]
+  E --> F[Robustness Stress Tests]
+  F --> G[Explainability SHAP]
+  G --> H[Prediction + Submission CSV]
 ```
 
 🧪 Statistical Validation
